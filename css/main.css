@@ -8,6 +8,12 @@
   color: red;
 }
 
+.logo {
+  max-width: 400px;
+  margin: 30px auto;
+  display: block;
+  border-radius: 6px;
+}
 /*
   Make image rasterization lazy. This means that e.g. the cost of the
   blurry placeholder is never paid if images load before entering
